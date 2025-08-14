@@ -1,11 +1,23 @@
 import React from "react";
-import Loginpage from "./Loginpage";  // ✅ Correct path agar Header.js same folder mein hai
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Features from "./Features";
+import About from "./About";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
-      <Loginpage />
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <About />
+      <Services />
+      <Testimonials />
+      <Footer />
+    </>
   );
 }
 
